@@ -31,11 +31,12 @@ export const getTodaysPlayers = async (league: string): Promise<any[]> => {
 
         //Find the dates that is closet to today and the games that are not done
         let closetDateGames = findClosestFutureDate(games);
+        // console.log('closetDateGames', closetDateGames)
 
-        let closestGames = closetDateGames.games;
-        let date = closetDateGames.gameDates;
+        // let closestGames = closetDateGames.games;
+        // let date = closetDateGames.gameDates;
     
-        return closestGames;
+        return closetDateGames;
     }
 
     return [];

@@ -18,15 +18,22 @@ export const NavBar: React.FC<Props> = ({
             url: 'https://app.prizepicks.com/sign-up?invite_code=PR-9LWKBZ1',
             promo: 'PR-9LWKBZ1', 
             picName: "prizepicks.png",
-            text: '$100 Bonus'
+            text: '$100 Bonus!'
         },
         {
             name:'UnderDog',
             url: 'https://play.underdogfantasy.com/goodluck255',
             promo: 'GOODLUCK255',
-            picName: "underdog.png",
+            picName: "underdog.jpeg",
             text: '$250 Bonus!'
         },
+        {
+            name: "Sleeper",
+            url: 'https://sleeper.com/promo/RF-BENSON456',
+            promo: 'BENSON456',
+            picName: "sleeper.jpeg",
+            text: '$100 Bonus!'
+        }
     ]
     return (
         <nav style={{

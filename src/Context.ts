@@ -9,6 +9,7 @@ export type PlayerType = {
     team: string,
     abbr: string,
     position: string,
+    number: string,
     ppg: number,
     rpg: number,
     apg: number

@@ -28,6 +28,7 @@ export const Trending = () => {
             
             try {
                 let todayGames = await getTodaysPlayers('WNBA');
+                console.log(todayGames)
     
                 for (const game of todayGames) {
                     const gameDetails = await fetch(`http://localhost:3001/getPlayersInGame/${game.gameId}`);

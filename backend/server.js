@@ -422,7 +422,8 @@ app.get("/allPlayers", async (req, res) => {
                 city: data[6],
                 team: data[7],
                 abbr: data[8],
-                position: data[9],
+                position: data[10],
+                number: data[9],
                 ppg: data[21],
                 rpg: data[22],
                 apg: data[23]

@@ -20,7 +20,7 @@ export const Promo: React.FC<Props> = ({picName, name, text, promo, url}) => {
             <div style={{width:'25%', height:'100%',display:'flex', justifyContent:'center', alignItems:'center'}}>
                 <img 
                     src={process.env.PUBLIC_URL + `/promos/${picName}`}
-                    style={{width: name === "UnderDog" ? '50px' : '40px', height:'40px'}}
+                    style={{width:'40px', height:'40px', borderRadius:20}}
                 />
             </div>
 
